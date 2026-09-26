@@ -215,7 +215,7 @@ switch
 {
 enum.id:(uni_MAC)==enum.device(uni_user:id);
 single:MAC"000_____"(multiple.id:login.admin:user["data"]);
-data<opus>.domain_unique:MAC::user_io<'$f'->'$M'->'$S'->*[@http,@https,@TLS,@SHCP,@DHCP,@SMAB,@ICMP,@DNS,@RNS,@RNC,@MNC,@MSC,@INC,@NMP,@WTP,@DHCP,@RMN,@BRC,@RDP,@PUA,@UDP,@RAS,@SNTP,'$f'->bluetooth,'$f'->wifi/ring_rout]ring:rout.enum;
+data<discrete>.domain_unique:MAC::user_io<'f'->'M'->'S'->*[@http,@https,@TLS,@SHCP,@DHCP,@SMAB,@ICMP,@DNS,@RNS,@RNC,@MNC,@MSC,@INC,@NMP,@WTP,@DHCP,@RMN,@BRC,@RDP,@PUA,@UDP,@RAS,@SNTP,'f'->bluetooth,'f'->wifi/ring_rout]ring:rout.enum;
 }
 invoke
 {
@@ -267,7 +267,7 @@ auto.parse=simantic"data";
 clause_epic.import(Init.dDevice<//path/n>)
 clause.value="[]".((Syntax,simanti,"parse:u.com \n_..));
 Value=(serial<<data<<);
-create app_Data==APIs:'F'<apps:apk"//http:/UDP:/MCNP:/TDP:/NMTP:/ICMP:/SNMP:/RNCP:/RNMP:/ISL:/TSL:/SSL:/TLS:/SHCP:/@DHCP:/SMAB:/ICMP:/DNS:/RNS:/RNC:/MNC:/MSC:/INC:/NMP:/WTP:/DHCP:/RMN:/BRC:/RDP:/PUA:/UDP:/RAS:/SNTP,ringrout_sequence:("./.elf")">;
+create app_Data==APIs/UPI:'$F'<apps:apk"//http:/UDP:/MCNP:/TDP:/NMTP:/ICMP:/SNMP:/RNCP:/RNMP:/ISL:/TSL:/SSL:/TLS:/SHCP:/@DHCP:/SMAB:/ICMP:/DNS:/RNS:/RNC:/MNC:/MSC:/INC:/NMP:/WTP:/DHCP:/RMN:/BRC:/RDP:/PUA:/UDP:/RAS:/SNTP,ringrout_sequence:("./.elf")">;
 auto:push.clause=strap.gen<"data:">;
 auto.enum.embed(boot:'%s',%d ,%f && %c,%l&%ul,%ln&%uln\n);
 boot:proc.
